@@ -55,7 +55,7 @@
     opacity: 0.5;
 
     /* How long it takes to transition from one property to another */
-    transition: ease-out 1s;
+    transition: ease-out 1s; /*Ease out is a type of timing property we will dive more in-depth to in #5: Animations*/
 }
 
 /* Pseudo-class for specific properties ONLY EXPRESSED when clicked */

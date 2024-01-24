@@ -1,0 +1,88 @@
+.color {
+    /* Text color */
+    color: blue;
+
+    /* Border properties (In order: Width, type, color */
+    border: 10rem solid green;
+
+    /* Padding (Inside space of the element */
+    padding: 0px;
+
+    /* Margin (External space of the element */
+    margin: 10px;
+
+    /* Specifying which area you want to configure */
+    border-left: 50px solid green;
+    padding-top: 10px;
+    margin-top: 10px;
+
+    /* Background color of the element */
+    background-color: aquamarine;
+    
+    /* Font Size */
+    font-size: 50px;
+
+    /* Radius of the border (How round you want the border's edges to be) */
+    border-radius: 5rem;
+
+    /* How thick or thin the text is */
+    font-weight:bold;
+
+    /* This is the height of this class */
+    height: 5em;
+
+    /* This is the width of this class */
+    width: 100%;
+}
+
+.navbar{
+    background-color: burlywood;
+    margin: 0%;
+    width: 100%;
+    height: 3rem;
+
+    /* The alignment of the INSIDE TEXT of the element */
+    text-align: center;
+    padding: 1rem;
+}
+
+
+/* Pseudo-class for specific properties ONLY EXPRESSED when hovered */
+.ratimg:hover{
+    width: 100px;
+
+    /* How opaque the element is */
+    opacity: 0.5;
+
+    /* How long it takes to transition from one property to another */
+    transition: ease-out 1s;
+}
+
+/* Pseudo-class for specific properties ONLY EXPRESSED when clicked */
+.ratimg:active{
+    height: 100em;
+    transition: 2s;
+}
+
+/* Pseudo-class for specific properties ONLY EXPRESSED by the nth child of a parent class*/
+.color:nth-child(3){
+    background-color: black;
+    width: 40px;
+}
+
+/* Targets the literal body of the website, which is everything that is displayed */
+body{
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+}
+
+/* Visited is a pseudo-class for a hyperlink after being visited */
+.among:visited{
+    color: red;
+}
+
+/* Visited is a pseudo-class for a hyperlink prior to being visited */
+.among:link{
+    color: blue;
+}

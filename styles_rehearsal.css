@@ -11,6 +11,50 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: white;
+    margin: 0%;
+}
+
+.sticky-text{
+    position: sticky;
+    top: 10%;
+    left: 10%;
+}
+
+
+.navbar{
+    width: 100%;
+    background-color: #1e1f22;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    justify-content:space-around;
+
+    position: Sticky;
+    top: 0%;
+    left: 0%;
+}
+
+.navbar h1{
+    margin: 0%;
+}
+
+.img-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+}
+
+.rat-woman{
+    grid-column-start: 2; grid-column-end: 4
+}
+
+.img-grid img{
+    width: 100%;
+}
+
+.grid-box{
+    background-color: #e4a31a;
 }
 
 .title{
@@ -55,8 +99,8 @@ body{
 }
 
 .logo{
-    width: 200px;
-    height: 200px;
+    width: 7em;
+    height: 7em;
 
     border-radius: 100%;
 
@@ -73,8 +117,8 @@ body{
 /* Pseudo-class for specific properties ONLY EXPRESSED when clicked */
 .logo:active{
     opacity: 1;
-    width: 250px;
-    height: 250px;
+    width: 11em;
+    height: 11em;
 }
 
 /* Pseudo-class for specific properties ONLY EXPRESSED by the nth child of a parent class*/
@@ -91,4 +135,13 @@ body{
 /* Visited is a pseudo-class for a hyperlink prior to being visited */
 .among:link{
     color: white;
+}
+
+.popup{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    width: 5rem;
+    margin: 1rem;
+    border-radius: 100%;
 }

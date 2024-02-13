@@ -13,6 +13,24 @@ body{
     color: white;
 }
 
+.navbar{
+    background-color: white;
+    color: black;
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    position: sticky;
+    margin-top: 100px;
+    top: 0%;
+}
+
+.rat-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .title{
     color: #e4a31a;
 }

@@ -1,31 +1,19 @@
-<!-- NEEDS TO BE IN THIS FORMAT OF:
-     <!DOCTYPE html>
-     <html>
-        <head>
-
-        </head>
-
-        <body>
-
-        </body>
-    </html-->
-
 <!DOCTYPE html>
 <html>
     <head>
         <!-- Stuff not shown on the page but still apart of the page is put here (Eg: Tab name, tab icon, stylesheets from css, etc) -->
         <title>rat Enjoyment CLub</title>
-        <link rel="stylesheet" type="text/css" href = "styles.css">
-        <link rel = "stylesheet" type="text/css" href ="animation.css">
+        <link rel="stylesheet" href = "styles.css">
+        <!-- <link rel = "stylesheet" href ="animation.css"> -->
         <link rel = "icon" type = "image/x-icon" href = "rat.png">
     </head>
 
     <body>
-        <!-- The body of the website, basically everything that is displayed -->
 
+        <!-- Simple example of creating a navbar using the display styling-->
         <div class="navbar">
             <h1 id = "textchange" style="color: rgb(0,0,0);">Rat Enjoyment Party Planner Club</h1>
-            <button id = "change">Change colour!</button>
+            <!-- <button id = "change">Change colour!</button> -->
             <img src="rat.webp" class="logo">
         </div>
 
@@ -42,13 +30,17 @@
         </div>
 
         <!-- h2: header 2 (Second largest default header for HTML) -->
-        <h2 class="title">Welcome to the Rat Enjoyment Party Planner Club</h2>
+
+        <!-- Also, good example of using a id in order to give it a unique identifier to get the element and manipulate it in Javascript-->
+        <h2 class="title" id="title">Welcome to the Rat Enjoyment Party Planner Club</h2>
 
         <!-- p: Paragraph (As the name states) -->
         <p>Welcome to the Rat Enjoyment Party Planner Club! Join us in celebrating all things rats, whether you're a seasoned enthusiast or simply curious. Our club offers a vibrant community where you can learn about rat care, participate in fun activities, and connect with fellow rat lovers. From themed parties to workshops and more, we provide a welcoming space to explore, learn, and have a great time.</p>
 
         <!-- button: Its a button (its self explanatory) -->
-        <button>Click me!</button>
+
+        <!--Also, you can see here that the onclick attribute allows us to call the colour function that was coded in lesson6.js-->
+        <button onclick="colour()" id="colourbutton">Click me!</button>
 
         <!-- Image: Element used to import and dispaly images -->
         
@@ -74,13 +66,15 @@
         <h3>
             Check out our other links!
         </h3>
+
         <!-- a: Anchor element (basically just a hyperlink) -->
         <a href="https://myselfshiwoziji.github.io/WebRC/" target ="_blank" class="among">Our Instagram</a>
         <a href="https://stackoverflow.com/questions/41867097/why-is-nth-child-selector-not-working" target ="_blank" class="among">Facebook</a>
       
       
-        <script src="javascript.js"></script>
-        <script src = "Javascript_test.js"></script>
+        <!-- <script src="/Javascript/Javascript_test.js"></script> -->
+        <!-- <script src = "/Javascript/javascript.js"></script> -->
+        <script src = "/Javascript/lesson6.js"></script>
     </body>
 
-</html> 
+</html>

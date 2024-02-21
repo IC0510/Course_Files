@@ -42,7 +42,7 @@ body{
     /* Border properties (In order: Width, type, color */
     border: 10rem solid green;
 
-    /* Padding (Inside space of the element */
+    /* Padding (Inside space of the element) */
     padding: 0px;
 
     /* Margin (External space of the element */
